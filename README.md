@@ -1,4 +1,4 @@
-# Playwright Testing Framework - Everfit Demo
+# Everfit Demo - Testing Framework [AI + Playwright]
 
 A comprehensive E2E testing framework built with Playwright and TypeScript, featuring AI-augmented validation for Ask Olly responses.
 

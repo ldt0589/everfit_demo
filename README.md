@@ -92,6 +92,18 @@ everfit_demo/
 
 ## 🧪 Test Suites
 
+### Test Case Summary
+
+| Test ID | Title | Category | Tags | Description |
+|---------|-------|----------|------|-------------|
+| TC_ASK_01 | Ask Olly about next week workout plan | Workout Plan | `@ask_olly_01`, `@ask_olly` | Validates Ask Olly response against next-week workout assignments |
+| TC_ASK_02 | Ask Olly about this week workout plan | Workout Plan | `@ask_olly_02`, `@ask_olly` | Validates Ask Olly response against current-week workout assignments |
+| TC_ASK_03 | Ask Olly about last week workout plan | Workout Plan | `@ask_olly_03`, `@ask_olly` | Validates Ask Olly response against past-week workout assignments |
+| TC_CONV_01 | Start a new chat successfully | Conversation | `@convor_01`, `@ask_olly` | Validates that user can reset conversation and start a new chat |
+| TC_CONV_02 | Ask multiple prompts in one conversation | Conversation | `@convor_02`, `@ask_olly` | Validates multi-turn conversation flow with multiple prompts |
+
+---
+
 ### 1. Ask Olly Workout Plan Tests
 **File**: [tests/01.askOlly.workout.spec.ts](tests/01.askOlly.workout.spec.ts)
 
